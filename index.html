@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS basics summary</title>
+</head>
+<body>
+
+<header>
+    <h1>HTML and CSS basics summary</h1>
+    <img src="resources/images/img.png" alt="html and css image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="inc/css/styles.css">
+
+</header>
+<main>
+    <div class="container">
+        <section>
+            <h2>HTML summary</h2>
+            <p>HTML (HyperText Markup Language) is used to define our contenct, structure and meaning.</p>
+            <p>You <strong>don't</strong> use it for styling purposes. Use CSS for that instead!</p>
+            <ul>
+                <li class="nota-bene">HTML uses "elements" to describe(annotate) content</li>
+                <li>HTML elements typically have an opening tag, content and a closing tag</li>
+                <li class="nota-bene">You can also have empty(void) elements like images</li>
+                <li class="nota-bene">You can also configure elements with attributes</li>
+                <li>There is a long list of attributes, but you will gain experience over time, no worries</li>
+            </ul>
+            <p>Learn more about all the elements on <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">the
+                MDN HTML elements reference </a></p>
+        </section>
+        <section>
+            <h2>CSS summary</h2>
+            <p>CSS (Cascading Style Sheets) is used for styling your page content.</p>
+            <ul>
+                <li>Styles are assigned with property-value pairs</li>
+                <li>You can assign styles via "style" attribute</li>
+                <li class="nota-bene">To avoid duplication, you usualy use global "stles" - via the "style" element
+                    instead
+                </li>
+                <li>Alternatively yo can work with external style file, which you "link" to</li>
+                <li class="nota-bene">When working with CSS, things like "inheritance", "specificity" and "box model"
+                    should
+                    be understood
+                </li>
+            </ul>
+            <p>Learn more about the CSS properties and values on <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">the MDN CSS reference</a></p>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <button type="button" class="actionButton" id="downloadPDF">
+        <a href="resources/html-css-basics-summary.pdf" target="_blank">Download PDF summary </a></button>
+    <p>&copy; YaFo</p>
+</footer>
+
+
+</body>
+</html>
